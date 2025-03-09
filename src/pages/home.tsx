@@ -9,7 +9,7 @@ export function Home() {
       <div className='content max-w-[754px] flex flex-col gap-5 p-5'>
         <div className='profile flex gap-5'>
           <img
-            className='w-[114px] rounded-full'
+            className='w-16 h-fit sm:w-[114px] rounded-full'
             src={profile}
             alt='Nathália Gonçalves'
           />
