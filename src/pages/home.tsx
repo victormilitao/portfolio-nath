@@ -34,7 +34,7 @@ export function Home() {
           acompanhamento de métricas, discovery contínuo e análise de dados.
         </p>
 
-        <div className='cursor-pointer project-card flex flex-auto rounded-xl text-primary-2 shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
+        <div className='flex flex-col-reverse sm:flex-row sm:flex-auto overflow-hidden cursor-pointer rounded-xl text-primary-2 shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
           <div className='info w-[70%] p-10 flex flex-col gap-3'>
             <p className='text-xl font-bold'>Escala - O Discovery</p>
             <p>
@@ -47,14 +47,14 @@ export function Home() {
           </div>
           <div className='work-schedule'>
             <img
-              className='w-[293px] h-full object-cover'
+              className='h-48 w-full object-cover sm:w-[293px] sm:h-full'
               src={workSchedule}
               alt='Escala'
             />
           </div>
         </div>
 
-        <div className='cursor-pointer project-card flex flex-auto rounded-xl shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
+        <div className='flex flex-col-reverse sm:flex-row sm:flex-auto overflow-hidden cursor-pointer rounded-xl text-primary-2 shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
           <div className='info w-[70%] p-10 flex flex-col gap-3'>
             <p className='text-xl font-bold'>Medindo o sucesso de um produto</p>
             <p>
@@ -67,7 +67,7 @@ export function Home() {
           </div>
           <div className='metrics'>
             <img
-              className='w-[293px] h-full object-cover'
+              className='h-48 w-full object-cover sm:w-[293px] sm:h-full'
               src={metrics}
               alt='Escala'
             />
