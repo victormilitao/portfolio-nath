@@ -6,7 +6,7 @@ import metrics from '/src/assets/metrics.png'
 export function Home() {
   return (
     <div className='container w-full h-full flex justify-center items-center'>
-      <div className='content max-w-[754px] flex flex-col gap-7 p-5'>
+      <div className='content max-w-[754px] flex flex-col gap-5 p-5'>
         <div className='profile flex gap-5'>
           <img
             className='w-[114px] rounded-full'
