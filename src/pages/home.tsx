@@ -1,4 +1,7 @@
 import { Button } from '../components/button'
+import profile from '/src/assets/profile.png'
+import workSchedule from '/src/assets/work-schedule.png'
+import metrics from '/src/assets/metrics.png'
 
 export function Home() {
   return (
@@ -7,7 +10,7 @@ export function Home() {
         <div className='profile flex gap-5'>
           <img
             className='w-[114px] rounded-full'
-            src='./src/assets/profile.png'
+            src={profile}
             alt='Nathália Gonçalves'
           />
           <div className='profile-info flex flex-col justify-center text-amber-700'>
@@ -45,7 +48,7 @@ export function Home() {
           <div className='work-schedule'>
             <img
               className='w-[293px] h-full object-cover'
-              src='./src/assets/work-schedule.png'
+              src={workSchedule}
               alt='Escala'
             />
           </div>
@@ -65,7 +68,7 @@ export function Home() {
           <div className='metrics'>
             <img
               className='w-[293px] h-full object-cover'
-              src='./src/assets/metrics.png'
+              src={metrics}
               alt='Escala'
             />
           </div>
