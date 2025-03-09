@@ -13,7 +13,7 @@ export function Home() {
             src={profile}
             alt='Nathália Gonçalves'
           />
-          <div className='profile-info flex flex-col justify-center text-amber-700'>
+          <div className='profile-info flex flex-col justify-center text-secondary-1'>
             <p className='profile-name font-bold'>Nathália Gonçalves</p>
             <p className='profile-job font-light mb-3'>
               Product designer no ecossistema VR
@@ -34,7 +34,7 @@ export function Home() {
           acompanhamento de métricas, discovery contínuo e análise de dados.
         </p>
 
-        <div className='cursor-pointer project-card flex flex-auto rounded-xl shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
+        <div className='cursor-pointer project-card flex flex-auto rounded-xl text-primary-2 shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
           <div className='info w-[70%] p-10 flex flex-col gap-3'>
             <p className='text-xl font-bold'>Escala - O Discovery</p>
             <p>
