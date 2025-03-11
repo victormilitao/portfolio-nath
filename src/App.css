@@ -21,10 +21,3 @@
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-primary-1);
 }
-
-body {
-  /* display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh; */
-}
