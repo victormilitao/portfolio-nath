@@ -2,6 +2,7 @@ import { Button } from '../components/button'
 import profile from '/src/assets/profile.png'
 import workSchedule from '/src/assets/work-schedule.png'
 import metrics from '/src/assets/metrics.png'
+import { Project } from '../components/project'
 
 export function Home() {
   return (
@@ -40,49 +41,21 @@ export function Home() {
           </p>
         </p>
 
-        <div className='mt-2 flex flex-col-reverse sm:flex-row sm:flex-auto overflow-hidden cursor-pointer rounded-xl text-primary-2 shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
-          <div className='sm:w-[70%] p-10 flex flex-col gap-2'>
-            <p className='text-xl font-bold'>Escala - O Discovery</p>
-            <p>
-              Confira como realizei o discovery para a criação de uma
+        <Project
+          title='Escala - O Discovery'
+          subtitle='Confira como realizei o discovery para a criação de uma
               funcionalidade de escala dentro de um sistema de controle de
-              ponto.
-            </p>
+              ponto.'
+          img={workSchedule}
+        />
 
-            <div className='mt-2'>
-              <Button>Abrir o projeto</Button>
-            </div>
-          </div>
-          <div className='work-schedule'>
-            <img
-              className='h-48 w-full object-cover sm:w-[293px] sm:h-full'
-              src={workSchedule}
-              alt='Escala'
-            />
-          </div>
-        </div>
-
-        <div className='mt-2 flex flex-col-reverse sm:flex-row sm:flex-auto overflow-hidden cursor-pointer rounded-xl text-primary-2 shadow-[0_0_64px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:scale-[101%]'>
-          <div className='sm:w-[70%] p-10 flex flex-col gap-3'>
-            <p className='text-xl font-bold'>Medindo o sucesso de um produto</p>
-            <p>
-              Justifiquei a necessidade de melhorias com base em métricas de
+        <Project
+          title='Medindo o sucesso de um produto'
+          subtitle='Justifiquei a necessidade de melhorias com base em métricas de
               sucesso e gerei impacto positivo para o negócio e para os
-              usuários.
-            </p>
-
-            <div className='mt-2'>
-              <Button>Abrir o projeto</Button>
-            </div>
-          </div>
-          <div className='metrics'>
-            <img
-              className='h-48 w-full object-cover sm:w-[293px] sm:h-full'
-              src={metrics}
-              alt='Escala'
-            />
-          </div>
-        </div>
+              usuários.'
+          img={metrics}
+        />
 
         <div className='footer text-center text-sm'>
           <span>Confira mais projetos aqui em breve :)</span>
