@@ -51,7 +51,7 @@ export function Home() {
         />
 
         <Project
-          url='work-schedule'
+          url='metrics'
           title='Medindo o sucesso de um produto'
           subtitle='Justifiquei a necessidade de melhorias com base em métricas de
               sucesso e gerei impacto positivo para o negócio e para os
