@@ -6,6 +6,7 @@ import info4 from '/src/assets/metrics-info-4.png'
 import info5 from '/src/assets/metrics-info-5.png'
 import info6 from '/src/assets/metrics-info-6.png'
 import info7 from '/src/assets/metrics-info-7.png'
+import { ProjectFooter } from '../components/project-footer'
 
 export const Metrics = () => {
   return (
@@ -87,9 +88,9 @@ export const Metrics = () => {
           <img className='w-[650px] object-cover' src={info3} />
           <p className='mt-3 text-xl font-bold'>Métrica 1: Ativação</p>
           <p>
-            <p className='text-secondary-1 text-lg font-bold'>
+            <span className='text-secondary-1 text-lg font-bold block'>
               O cliente começou a usar a Gestão Completa de Férias?
-            </p>
+            </span>
             No contexto da funcionalidade ‘Gestão Completa de Férias’, a
             <b>configuração</b> inicial é o fator determinante para considerar o
             cliente como ativado. Sem essa etapa, o uso da funcionalidade não é
@@ -98,9 +99,9 @@ export const Metrics = () => {
           </p>
           <p className='mt-3 text-xl font-bold'>Métrica 2: Retenção</p>
           <p>
-            <p className='text-secondary-1 text-lg font-bold'>
+            <span className='text-secondary-1 text-lg font-bold block'>
               O cliente está utilizando a Gestão Completa de Férias?
-            </p>
+            </span>
             Ao analisar a retenção, medimos e analisamos se os clientes estão,
             de fato, utilizando a funcionalidade Gestão Completa de Férias e
             também se estão deixando de usá-la.
@@ -127,9 +128,9 @@ export const Metrics = () => {
           <img className='w-[650px] object-cover' src={info4} />
           <p className='mt-3 text-xl font-bold'>Métrica 3: Recomendação</p>
           <p>
-            <p className='text-secondary-1 text-lg font-bold'>
+            <span className='text-secondary-1 text-lg font-bold block'>
               O cliente está satisfeito com a Gestão Completa de Férias?
-            </p>
+            </span>
             Para avaliar a satisfação dos clientes com a funcionalidade,
             realizamos periodicamente pesquisas de CSAT. Definimos que, no nosso
             contexto, um CSAT de 80 ou mais indica um nível satisfatório de
@@ -153,10 +154,10 @@ export const Metrics = () => {
             Métrica 4: Eficiência operacional
           </p>
           <p>
-            <p className='text-secondary-1 text-lg font-bold'>
+            <span className='text-secondary-1 text-lg font-bold block'>
               O cliente está precisando acionar o suporte para utilizar a Gestão
               Completa de Férias?
-            </p>
+            </span>
             Se um cliente precisa acionar o suporte para utilizar a
             funcionalidade, entendemos que há um problema. Esse atrito indica
             que algo na experiência do usuário não está claro ou intuitivo o
@@ -266,7 +267,13 @@ export const Metrics = () => {
             os usuários para garantir que atendiam às suas necessidades e
             expectativas.
           </p>
+          <div>
+            <hr className='absolute text-gray-1 left-0 right-0' />
+          </div>
         </div>
+      </div>
+      <div className='mt-10'>
+        <ProjectFooter />
       </div>
     </>
   )

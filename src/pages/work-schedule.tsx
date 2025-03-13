@@ -4,6 +4,8 @@ import info2 from '/src/assets/work-schedule-info-2.png'
 import info3 from '/src/assets/work-schedule-info-3.png'
 import info4 from '/src/assets/work-schedule-info-4.png'
 import info5 from '/src/assets/work-schedule-info-5.png'
+import { Profile } from '../components/profile'
+import { ProjectFooter } from '../components/project-footer'
 
 export const WorkSchedule = () => {
   return (
@@ -67,9 +69,9 @@ export const WorkSchedule = () => {
           </div>
           <p className='mt-3 text-xl font-bold'>O discovery</p>
           <p>
-            <p className='text-secondary-1 text-lg font-bold'>
+            <span className='text-secondary-1 text-lg font-bold block'>
               Imersão no tema e pesquisa inicial
-            </p>
+            </span>
             Antes de avançar no projeto, era fundamental compreender o contexto
             e as particularidades das escalas de trabalho. Para isso, realizamos
             uma pesquisa exploratória em sites de busca, com o objetivo de
@@ -91,9 +93,9 @@ export const WorkSchedule = () => {
           </p>
           <img className='w-[650px] object-cover' src={info3} />
           <p>
-            <p className='text-secondary-1 font-bold'>
+            <span className='text-secondary-1 text-lg font-bold block'>
               Pesquisa de campo: entendendo o dia a dia dos usuários
-            </p>
+            </span>
             Com um conhecimento mais aprofundado sobre o tema, passamos para a
             próxima etapa: conversar diretamente com o nosso público. O objetivo
             era entender, na prática, como as escalas de trabalho são montadas
@@ -130,9 +132,9 @@ export const WorkSchedule = () => {
           </p>
           <img className='w-[650px] object-cover' src={info4} />
           <p>
-            <p className='text-secondary-1 font-bold'>
+            <span className='text-secondary-1 font-bold block'>
               Análise de mercado e benchmarking
-            </p>
+            </span>
           </p>
           <p>
             A última etapa do Discovery foi analisar o mercado para entender
@@ -213,6 +215,9 @@ export const WorkSchedule = () => {
             <hr className='absolute text-gray-1 left-0 right-0' />
           </div>
         </div>
+      </div>
+      <div className='mt-10'>
+        <ProjectFooter />
       </div>
     </>
   )
