@@ -4,7 +4,6 @@ import info2 from '/src/assets/work-schedule-info-2.png'
 import info3 from '/src/assets/work-schedule-info-3.png'
 import info4 from '/src/assets/work-schedule-info-4.png'
 import info5 from '/src/assets/work-schedule-info-5.png'
-import { Profile } from '../components/profile'
 import { ProjectFooter } from '../components/project-footer'
 
 export const WorkSchedule = () => {
