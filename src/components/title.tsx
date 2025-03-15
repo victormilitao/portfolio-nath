@@ -13,5 +13,5 @@ const typesCss: Record<string, string> = {
 };
 
 export const Title = ({ type, text }: TitleProps) => {
-  return <p className={`text-left font-bold ${typesCss[type] || "text-lg"}`}>{text}</p>;
+  return <span className={`text-left font-bold ${typesCss[type] || "text-lg"}`}>{text}</span>;
 };

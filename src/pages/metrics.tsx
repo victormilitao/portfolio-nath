@@ -10,11 +10,13 @@ import { ProjectFooter } from '../components/project-footer'
 import { Line } from '../components/line'
 import { Title } from '../components/title'
 import { ProjectImage } from '../components/project-image'
+import { BackToTop } from '../components/back-to-top'
 
 export const Metrics = () => {
   return (
     <>
       <Header />
+      <BackToTop />
       <div className='flex justify-center mt-10'>
         <div className='flex flex-col max-w-[650px] text-lg'>
           <p className='text-secondary-1 text-4xl font-bold text-center mb-6'>

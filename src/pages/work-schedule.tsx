@@ -8,11 +8,13 @@ import { ProjectFooter } from '../components/project-footer'
 import { Line } from '../components/line'
 import { Title } from '../components/title'
 import { ProjectImage } from '../components/project-image'
+import { BackToTop } from '../components/back-to-top'
 
 export const WorkSchedule = () => {
   return (
     <>
       <Header />
+      <BackToTop />
       <div className='flex justify-center mt-10'>
         <div className='flex flex-col max-w-[650px] text-lg'>
           <p className='text-secondary-1 text-4xl font-bold text-center mb-6'>
@@ -70,16 +72,18 @@ export const WorkSchedule = () => {
           <div className='mt-3'>
             <Title type='3' text='O discovery' />
           </div>
-          <p className='mt-7'>
+          <div className='mt-7'>
             <div className='mb-2'>
               <Title type='5' text='Imersão no tema e pesquisa inicial' />
             </div>
-            Antes de avançar no projeto, era fundamental compreender o contexto
-            e as particularidades das escalas de trabalho. Para isso, realizamos
-            uma pesquisa exploratória em sites de busca, com o objetivo de
-            mapear os tipos de escalas mais comuns adotados pelas empresas e
-            entender as regulamentações existentes.
-          </p>
+            <p>
+              Antes de avançar no projeto, era fundamental compreender o
+              contexto e as particularidades das escalas de trabalho. Para isso,
+              realizamos uma pesquisa exploratória em sites de busca, com o
+              objetivo de mapear os tipos de escalas mais comuns adotados pelas
+              empresas e entender as regulamentações existentes.
+            </p>
+          </div>
           <p className='mt-6'>
             Esse estudo permitiu aprofundar o conhecimento sobre as regras de
             escalas, incluindo a quantidade mínima de dias de descanso, a
@@ -94,19 +98,21 @@ export const WorkSchedule = () => {
             garantindo conversas mais produtivas e embasadas.
           </p>
           <ProjectImage src={info3} />
-          <p>
+          <div>
             <div className='mt-12 mb-2'>
               <Title
                 type='5'
                 text='Pesquisa de campo: entendendo o dia a dia dos usuários'
               />
             </div>
-            Com um conhecimento mais aprofundado sobre o tema, passamos para a
-            próxima etapa: conversar diretamente com o nosso público. O objetivo
-            era entender, na prática, como as escalas de trabalho são montadas
-            no dia a dia e quais desafios as pessoas responsáveis por essa
-            tarefa enfrentam.
-          </p>
+            <p>
+              Com um conhecimento mais aprofundado sobre o tema, passamos para a
+              próxima etapa: conversar diretamente com o nosso público. O
+              objetivo era entender, na prática, como as escalas de trabalho são
+              montadas no dia a dia e quais desafios as pessoas responsáveis por
+              essa tarefa enfrentam.
+            </p>
+          </div>
           <p className='mt-6'>
             Para isso, realizei um verdadeiro <b>trabalho de campo</b>,
             visitando comércios próximos à minha casa que funcionam de domingo a
@@ -136,11 +142,9 @@ export const WorkSchedule = () => {
             trabalho, observando suas dificuldades e facilidades no processo.
           </p>
           <ProjectImage src={info4} />
-          <p>
-            <div className='mt-12 mb-2'>
-              <Title type='5' text='Análise de mercado e benchmarking' />
-            </div>
-          </p>
+          <div className='mt-12 mb-2'>
+            <Title type='5' text='Análise de mercado e benchmarking' />
+          </div>
           <p>
             A última etapa do Discovery foi analisar o mercado para entender
             quais soluções já existiam para a gestão de escalas e como elas
