@@ -24,9 +24,9 @@
   color: var(--color-primary-1);
 }
 
-p {
-  font-size: 24px;
-}
+/* p {
+  font-size: 18px;
+} */
 
 span.text-secondary-1{
   font-size: 24px;
