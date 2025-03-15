@@ -7,6 +7,7 @@ import info5 from '/src/assets/work-schedule-info-5.png'
 import { ProjectFooter } from '../components/project-footer'
 import { Line } from '../components/line'
 import { Title } from '../components/title'
+import { ProjectImage } from '../components/project-image'
 
 export const WorkSchedule = () => {
   return (
@@ -64,7 +65,7 @@ export const WorkSchedule = () => {
             de trabalho, folgas e horários, o sistema precisa levar em conta
             regras específicas do controle de ponto.
           </p>
-          <img className='w-[650px] object-cover mt-10' src={info2} />
+          <ProjectImage src={info2} />
           <Line />
           <div className='mt-3'>
             <Title type='3' text='O discovery' />
@@ -92,7 +93,7 @@ export const WorkSchedule = () => {
             conhecimento prévio sólido antes de conversar com nosso público,
             garantindo conversas mais produtivas e embasadas.
           </p>
-          <img className='w-[650px] object-cover mt-10' src={info3} />
+          <ProjectImage src={info3} />
           <p>
             <div className='mt-12 mb-2'>
               <Title
@@ -134,13 +135,10 @@ export const WorkSchedule = () => {
             (shadowing) — ou seja, acompanhar o usuário em seu ambiente real de
             trabalho, observando suas dificuldades e facilidades no processo.
           </p>
-          <img className='w-[650px] object-cover mt-10' src={info4} />
+          <ProjectImage src={info4} />
           <p>
             <div className='mt-12 mb-2'>
-              <Title
-                type='5'
-                text='Análise de mercado e benchmarking'
-              />
+              <Title type='5' text='Análise de mercado e benchmarking' />
             </div>
           </p>
           <p>
@@ -163,12 +161,12 @@ export const WorkSchedule = () => {
             enriquecendo ainda mais a base de conhecimento para a próxima fase
             do projeto.
           </p>
-          <img className='w-[650px] object-cover mt-10' src={info5} />
+          <ProjectImage src={info5} />
 
           <Line />
 
           <div className='mt-3'>
-          <Title type='3' text='O fim do discovery e as etapas seguintes' />
+            <Title type='3' text='O fim do discovery e as etapas seguintes' />
           </div>
           <p className='mt-5'>
             Todos os processos foram documentados no Notion, enquanto o painel

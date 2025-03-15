@@ -9,6 +9,7 @@ import info7 from '/src/assets/metrics-info-7.png'
 import { ProjectFooter } from '../components/project-footer'
 import { Line } from '../components/line'
 import { Title } from '../components/title'
+import { ProjectImage } from '../components/project-image'
 
 export const Metrics = () => {
   return (
@@ -53,7 +54,7 @@ export const Metrics = () => {
             A seguir, compartilho mais detalhes sobre a criação dessas métricas
             e os impactos que elas trouxeram para o produto e para o negócio.
           </p>
-          <img className='w-[650px] object-cover mt-10' src={info2} />
+          <ProjectImage src={info2} />
           <Line />
           <div className='mt-3'>
             <Title
@@ -88,8 +89,8 @@ export const Metrics = () => {
             receita por um indicador mais alinhado à nossa realidade: eficiência
             operacional.
           </p>
-          <img className='w-[650px] object-cover my-10' src={info3} />
-          <div className='mt-3'>
+          <ProjectImage src={info3} />
+          <div className='mt-14'>
             <Title type='2' text='Métrica 1: Ativação' />
           </div>
           <p className='mt-3'>
@@ -134,8 +135,8 @@ export const Metrics = () => {
             funcionalidade nem tiver colaboradores vinculados à configuração,
             consideramos que ele deixou de utilizá-la.
           </p>
-          <img className='w-[650px] object-cover my-10' src={info4} />
-          <div className='mt-3'>
+          <ProjectImage src={info4} />
+          <div className='mt-14'>
             <Title type='2' text='Métrica 3: Recomendação' />
           </div>
           <p className='mt-3'>
@@ -161,8 +162,8 @@ export const Metrics = () => {
             futuro, será necessário adotar um ciclo mais consistente e
             estruturado para a medição dessa métrica.
           </p>
-          <img className='w-[650px] object-cover my-10' src={info5} />
-          <div className='mt-3'>
+          <ProjectImage src={info5} />
+          <div className='mt-14'>
             <Title type='2' text='Métrica 4: Eficiência operacional' />
           </div>
           <p className='mt-3'>
@@ -193,7 +194,7 @@ export const Metrics = () => {
             identificar oportunidades de melhoria e tornar o produto cada vez
             mais eficiente.
           </p>
-          <img className='w-[650px] object-cover mt-10' src={info6} />
+          <ProjectImage src={info6} />
           <Line />
           <div className='mt-3'>
             <Title type='3' text='As descobertas e impactos' />
@@ -228,8 +229,8 @@ export const Metrics = () => {
             estabelecida. Atualmente, seguimos focados em aprimorar os pontos de
             melhoria identificados na pesquisa mais recente.
           </p>
-          <img className='w-[650px] object-cover my-10' src={info7} />
-          <p>
+          <ProjectImage src={info7} />
+          <p className='mt-14'>
             Observamos também que a <b>métrica de eficiência operacional</b>
             demandava uma ação urgente, pois, ao comparar a porcentagem de
             clientes que utilizavam a funcionalidade com o número de
