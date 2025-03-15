@@ -7,6 +7,7 @@ import info5 from '/src/assets/metrics-info-5.png'
 import info6 from '/src/assets/metrics-info-6.png'
 import info7 from '/src/assets/metrics-info-7.png'
 import { ProjectFooter } from '../components/project-footer'
+import { Line } from '../components/line'
 
 export const Metrics = () => {
   return (
@@ -52,9 +53,7 @@ export const Metrics = () => {
             e os impactos que elas trouxeram para o produto e para o negócio.
           </p>
           <img className='w-[650px] object-cover' src={info2} />
-          <div>
-            <hr className='absolute text-gray-1 left-0 right-0' />
-          </div>
+          <Line />
           <p className='mt-3 text-xl font-bold'>
             Aplicação das métricas piratas ao nosso cenário
           </p>
@@ -181,9 +180,7 @@ export const Metrics = () => {
             mais eficiente.
           </p>
           <img className='w-[650px] object-cover' src={info6} />
-          <div>
-            <hr className='absolute text-gray-1 left-0 right-0' />
-          </div>
+          <Line />
           <p className='mt-3 text-xl font-bold'>As descobertas e impactos</p>
           <p>
             Com este projeto, identificamos insights valiosos que nos ajudaram a
@@ -231,6 +228,20 @@ export const Metrics = () => {
             clientes, que passaram a utilizar a funcionalidade de forma mais
             fluida e intuitiva.
           </p>
+          <p className='mt-3 text-xl font-bold'>Minha atuação no projeto</p>
+          <p>
+            Atuei de ponta a ponta no projeto, começando pelo levantamento da
+            necessidade de se ter métricas de sucesso e definição das mesmas.
+            Acompanhei a construção do BI para garantir que tivéssemos os dados
+            necessários para monitorar as métricas definidas.
+          </p>
+          <p>
+            Lançei e analisei pesquisas, coletei feedback diretamente com os
+            usuários, analisei atendimentos de suporte, desenhei os protótipos
+            das melhorias identificadas e priorizadas, e validei as soluções com
+            os usuários para garantir que atendiam às suas necessidades e
+            expectativas.
+          </p>
           <p className='mt-3 text-xl font-bold'>
             A visibilidade do design como área estratégica
           </p>
@@ -253,23 +264,8 @@ export const Metrics = () => {
             Seguimos evoluindo e acompanhando as métricas para tornar a
             funcionalidade cada vez mais valiosa.
           </p>
-          <p className='mt-3 text-xl font-bold'>Minha atuação no projeto</p>
-          <p>
-            Atuei de ponta a ponta no projeto, começando pelo levantamento da
-            necessidade de se ter métricas de sucesso e definição das mesmas.
-            Acompanhei a construção do BI para garantir que tivéssemos os dados
-            necessários para monitorar as métricas definidas.
-          </p>
-          <p>
-            Lançei e analisei pesquisas, coletei feedback diretamente com os
-            usuários, analisei atendimentos de suporte, desenhei os protótipos
-            das melhorias identificadas e priorizadas, e validei as soluções com
-            os usuários para garantir que atendiam às suas necessidades e
-            expectativas.
-          </p>
-          <div>
-            <hr className='absolute text-gray-1 left-0 right-0' />
-          </div>
+
+          <Line />
         </div>
       </div>
       <div className='mt-10'>

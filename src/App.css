@@ -23,3 +23,15 @@
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-primary-1);
 }
+
+p {
+  font-size: 24px;
+}
+
+span.text-secondary-1{
+  font-size: 24px;
+}
+
+hr {
+  margin: 10px 0;
+}

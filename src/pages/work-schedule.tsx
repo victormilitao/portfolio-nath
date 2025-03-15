@@ -5,6 +5,7 @@ import info3 from '/src/assets/work-schedule-info-3.png'
 import info4 from '/src/assets/work-schedule-info-4.png'
 import info5 from '/src/assets/work-schedule-info-5.png'
 import { ProjectFooter } from '../components/project-footer'
+import { Line } from '../components/line'
 
 export const WorkSchedule = () => {
   return (
@@ -63,9 +64,7 @@ export const WorkSchedule = () => {
             regras específicas do controle de ponto.
           </p>
           <img className='w-[650px] object-cover' src={info2} />
-          <div>
-            <hr className='absolute text-gray-1 left-0 right-0' />
-          </div>
+          <Line />
           <p className='mt-3 text-xl font-bold'>O discovery</p>
           <p>
             <span className='text-secondary-1 text-lg font-bold block'>
@@ -157,9 +156,7 @@ export const WorkSchedule = () => {
           </p>
           <img className='w-[650px] object-cover' src={info5} />
 
-          <div>
-            <hr className='absolute text-gray-1 left-0 right-0' />
-          </div>
+          <Line />
 
           <p className='mt-3 text-left text-xl font-bold'>
             O fim do discovery e as etapas seguintes
@@ -200,19 +197,20 @@ export const WorkSchedule = () => {
             atualmente.
           </p>
 
-          <iframe
-            className='rounded-2xl'
-            height='460'
-            src='https://www.youtube.com/embed/fphAw9RQ50I?si=PLiBOFQevWnKiMAj'
-            title='Escala'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            referrerPolicy='strict-origin-when-cross-origin'
-            allowFullScreen
-          ></iframe>
-
-          <div>
-            <hr className='absolute text-gray-1 left-0 right-0' />
+          <div className='w-full h-[460px] flex justify-center'>
+            <iframe
+              className='rounded-2xl absolute'
+              width='800'
+              height='460'
+              src='https://www.youtube.com/embed/fphAw9RQ50I?si=PLiBOFQevWnKiMAj'
+              title='Escala'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              referrerPolicy='strict-origin-when-cross-origin'
+              allowFullScreen
+            ></iframe>
           </div>
+
+          <Line />
         </div>
       </div>
       <div className='mt-10'>
