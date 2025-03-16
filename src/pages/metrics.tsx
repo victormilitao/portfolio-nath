@@ -11,6 +11,7 @@ import { Line } from '../components/line'
 import { Title } from '../components/title'
 import { ProjectImage } from '../components/project-image'
 import { BackToTop } from '../components/back-to-top'
+import { LinkTo } from '../components/link-to'
 
 export const Metrics = () => {
   return (
@@ -264,7 +265,10 @@ export const Metrics = () => {
             expectativas.
           </p>
           <div className='mt-10'>
-            <Title type='2' text='A visibilidade do design como área estratégica' />
+            <Title
+              type='2'
+              text='A visibilidade do design como área estratégica'
+            />
           </div>
           <p className='mt-3'>
             O projeto de construção dessas métricas não apenas gerou diversas
@@ -286,12 +290,15 @@ export const Metrics = () => {
             funcionalidade cada vez mais valiosa.
           </p>
 
+          <LinkTo className='mt-12 -mb-5 text-center' href='/'>
+            Acessar a página inicial
+          </LinkTo>
+
           <Line />
         </div>
       </div>
-      <div className='mt-10'>
-        <ProjectFooter />
-      </div>
+
+      <ProjectFooter />
     </>
   )
 }

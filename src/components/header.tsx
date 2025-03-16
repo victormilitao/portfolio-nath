@@ -3,7 +3,7 @@ import cv from '/src/assets/cv-nath.pdf'
 
 export const Header = () => {
   return (
-    <div className='flex gap-10 text-xl font-semibold'>
+    <div className='flex gap-10'>
       <LinkTo href='/'>Início</LinkTo>
       <LinkTo href={cv} target='_blank'>
         Currículo

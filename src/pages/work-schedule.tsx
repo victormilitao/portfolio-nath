@@ -9,6 +9,7 @@ import { Line } from '../components/line'
 import { Title } from '../components/title'
 import { ProjectImage } from '../components/project-image'
 import { BackToTop } from '../components/back-to-top'
+import { LinkTo } from '../components/link-to'
 
 export const WorkSchedule = () => {
   return (
@@ -222,6 +223,8 @@ export const WorkSchedule = () => {
               ></iframe>
             </div>
           </div>
+
+          <LinkTo className='mt-12 -mb-5 text-center' href='/'>Acessar a página inicial</LinkTo>
 
           <Line />
         </div>
