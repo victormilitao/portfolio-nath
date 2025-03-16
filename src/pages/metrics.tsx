@@ -101,7 +101,7 @@ export const Metrics = () => {
               type='6'
               text='O cliente começou a usar a Gestão Completa de Férias?'
             />
-            No contexto da funcionalidade ‘Gestão Completa de Férias’, a
+            No contexto da funcionalidade ‘Gestão Completa de Férias’, a{' '}
             <b>configuração</b> inicial é o fator determinante para considerar o
             cliente como ativado. Sem essa etapa, o uso da funcionalidade não é
             possível e, ao realizá-la, o cliente dá o primeiro passo para sua
