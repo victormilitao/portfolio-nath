@@ -17,7 +17,7 @@ export const BackToTop = () => {
   if (!isVisible) return null
 
   return (
-    <div className='fixed right-20 bottom-14 z-10'>
+    <div className='hidden sm:block fixed right-20 top-12 z-10'>
       <Link
         to=''
         className='text-xl font-semibold absolute'

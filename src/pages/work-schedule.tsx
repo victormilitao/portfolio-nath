@@ -226,9 +226,8 @@ export const WorkSchedule = () => {
           <Line />
         </div>
       </div>
-      <div className='mt-'>
-        <ProjectFooter />
-      </div>
+
+      <ProjectFooter />
     </>
   )
 }

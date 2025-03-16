@@ -12,7 +12,6 @@
 }
 
 #root {
-  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Heebo', Arial, sans-serif;
@@ -24,10 +23,6 @@
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-primary-1);
 }
-
-/* p {
-  font-size: 18px;
-} */
 
 span.text-secondary-1{
   font-size: 24px;
