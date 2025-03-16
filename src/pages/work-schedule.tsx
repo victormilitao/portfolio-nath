@@ -208,23 +208,25 @@ export const WorkSchedule = () => {
             atualmente.
           </p>
 
-          <div className='mt-10 w-full h-[460px] flex justify-center'>
-            <iframe
-              className='rounded-2xl absolute'
-              width='800'
-              height='460'
-              src='https://www.youtube.com/embed/fphAw9RQ50I?si=PLiBOFQevWnKiMAj'
-              title='Escala'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              referrerPolicy='strict-origin-when-cross-origin'
-              allowFullScreen
-            ></iframe>
+          <div className='mt-10 h-[260px] sm:h-[460px] flex justify-center'>
+            <div className='w-full sm:w-[800px] sm:max-w-none object-cover'>
+              <iframe
+                className='rounded-2xl sm:w-[800px]'
+                width='100%'
+                height='100%'
+                src='https://www.youtube.com/embed/fphAw9RQ50I?si=PLiBOFQevWnKiMAj'
+                title='Escala'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                referrerPolicy='strict-origin-when-cross-origin'
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
 
           <Line />
         </div>
       </div>
-      <div className='mt-10'>
+      <div className='mt-'>
         <ProjectFooter />
       </div>
     </>
