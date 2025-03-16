@@ -5,8 +5,8 @@ import { Profile } from '../components/profile'
 
 export function Home() {
   return (
-    <div className='container w-full h-full flex justify-center items-center'>
-      <div className='content max-w-[754px] flex flex-col gap-5 p-5'>
+    <div className='w-full h-full flex justify-center items-center'>
+      <div className='max-w-[754px] flex flex-col gap-5 p-5'>
         <Profile />
 
         <p className='text-3xl font-bold'>

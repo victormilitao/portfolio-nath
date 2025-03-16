@@ -29,7 +29,7 @@ export const Profile = () => {
             </Button>
             <Button>
               <a
-                href='https://www.linkedin.com/in/nathalia'
+                href='https://www.linkedin.com/in/nathaliagob'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='block w-full h-full'
