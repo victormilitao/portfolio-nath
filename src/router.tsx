@@ -7,8 +7,8 @@ export function Router() {
   return (
     <Routes>
       <Route path='/' element={<Home />}></Route>
-      <Route path='/work-schedule' element={<WorkSchedule />}></Route>
-      <Route path='/metrics' element={<Metrics />}></Route>
+      <Route path='/escala-discovery' element={<WorkSchedule />}></Route>
+      <Route path='/metricas-sucesso' element={<Metrics />}></Route>
     </Routes>
   )
 }

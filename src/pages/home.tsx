@@ -20,7 +20,7 @@ export function Home() {
         </p>
 
         <Project
-          url='work-schedule'
+          url='escala-discovery'
           title='Escala - O Discovery'
           subtitle='Confira como realizei o discovery para a criação de uma
               funcionalidade de escala dentro de um sistema de controle de
@@ -29,7 +29,7 @@ export function Home() {
         />
 
         <Project
-          url='metrics'
+          url='metricas-sucesso'
           title='Medindo o sucesso de um produto'
           subtitle='Justifiquei a necessidade de melhorias com base em métricas de
               sucesso e gerei impacto positivo para o negócio e para os
