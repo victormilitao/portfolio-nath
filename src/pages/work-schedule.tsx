@@ -18,7 +18,7 @@ export const WorkSchedule = () => {
       <BackToTop />
       <div className='flex justify-center mt-10'>
         <div className='flex flex-col max-w-[650px] text-lg'>
-          <p className='text-secondary-1 text-4xl font-bold text-center mb-6'>
+          <p className='text-secondary-1 text-3xl sm:text-4xl font-bold text-center mb-6'>
             Escala - O Discovery
           </p>
           <img className='w-[650px] object-cover mb-6' src={info} />

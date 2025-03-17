@@ -6,7 +6,7 @@ import { Profile } from '../components/profile'
 export function Home() {
   return (
     <div className='w-full h-full flex justify-center items-center'>
-      <div className='max-w-[754px] flex flex-col gap-5 p-5'>
+      <div className='max-w-[754px] flex flex-col gap-5 py-5'>
         <Profile />
 
         <p className='text-3xl font-bold'>
