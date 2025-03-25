@@ -114,7 +114,7 @@ export const Continuos = () => {
             falha na hierarquia visual e na localização do botão para realizar a
             publicação de uma escala.
           </p>
-          <ProjectImage src={info2} />
+          <ProjectImage src={info2} size='lg' />
           <p className='mt-6'>
             Para evitar essa situação, adicionamos um botão "+ Nova publicação"
             na aba de escalas publicadas, tornando o fluxo mais intuitivo. Após
@@ -127,7 +127,7 @@ export const Continuos = () => {
             tanto para novos usuários quanto para aqueles que já estavam
             familiarizados com o processo.
           </p>
-          <ProjectImage src={info3} />
+          <ProjectImage src={info3} size='lg' />
           <p className='mt-6'>
             Antes, o botão de publicação estava sempre associado a um modelo de
             escala específico. Ao adicioná-lo na aba de escalas publicadas, foi
@@ -197,7 +197,7 @@ export const Continuos = () => {
             categorias, como nomes de colaboradores, equipes, cargos e
             departamentos, tornando a pesquisa pesada.
           </p>
-          <ProjectImage src={info5} />
+          <ProjectImage src={info5} size='lg' />
           <p className='mt-6'>
             Para melhorar essa experiência, implementamos um filtro de categoria
             antes da busca, permitindo que o usuário selecione previamente se
@@ -206,7 +206,7 @@ export const Continuos = () => {
             pesquisa à categoria escolhida, tornando o carregamento muito mais
             rápido.
           </p>
-          <ProjectImage src={info6} />
+          <ProjectImage src={info6} size='lg' />
           <Line />
           <div className='mt-3'>
             <Title type='3' text='O que descobri analisando os atendimentos?' />
