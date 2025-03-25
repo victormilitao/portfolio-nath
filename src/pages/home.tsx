@@ -1,5 +1,6 @@
 import workSchedule from '/src/assets/work-schedule.png'
 import metrics from '/src/assets/metrics.png'
+import continuos from '/src/assets/continuos-improvement.png'
 import { Project } from '../components/project'
 import { Profile } from '../components/profile'
 
@@ -35,6 +36,13 @@ export function Home() {
               sucesso e gerei impacto positivo para o negócio e para os
               usuários.'
           img={metrics}
+        />
+
+        <Project
+          url='melhoria-continua'
+          title='Ciclo de melhoria contínua'
+          subtitle='Após o lançamento de uma nova funcionalidade, utilizei dados para refinar a experiência dos usuários e impulsionar a evolução do produto.'
+          img={continuos}
         />
 
         <div className='footer text-center text-sm'>
