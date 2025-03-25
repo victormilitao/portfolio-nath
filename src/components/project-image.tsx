@@ -3,17 +3,25 @@ type ProjectImageProps = {
   size?: 'sm' | 'md' | 'lg'
 }
 
-const ImgSize = {
-  sm: '400px',
-  md: '800px',
-  lg: '900px',
-}
-
 export const ProjectImage = ({ src, size = 'md' }: ProjectImageProps) => {
+  const ImgSize = {
+    sm: '400px',
+    md: '800px',
+    lg: '900px',
+  }
+  
   const width = ImgSize[size]
+
+  if (!width) return null
+
   return (
-    <div className='mt-10 w-full flex justify-center'>
-      <img className={`w-[${width}] sm:max-w-[${width}] object-cover`} src={src} />
+    <div className="mt-10 w-full flex justify-center">
+      <img
+        className="object-cover"
+        style={{ width, maxWidth: width }}
+        src={src}
+        alt="Project"
+      />
     </div>
   )
 }

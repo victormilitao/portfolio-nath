@@ -104,11 +104,13 @@ export const Continuos = () => {
             destaco algumas das principais questões que identificamos e como as
             resolvemos:
           </p>
-          <p className='mt-3'>
+          <div className='mt-6'>
             <Title
               type='6'
               text='1. Confusão com o botão "+ Novo modelo de escala'
             />
+          </div>
+          <p className='mt-3'>
             Muitos usuários clicavam no botão "+ Novo Modelo de Escala" quando,
             na verdade, queriam publicar uma escala. Essa confusão indicava uma
             falha na hierarquia visual e na localização do botão para realizar a
