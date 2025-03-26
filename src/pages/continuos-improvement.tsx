@@ -113,7 +113,7 @@ export const Continuos = () => {
               text='1. Confusão com o botão "+ Novo modelo de escala'
             />
           </div>
-          <p className='mt-3 -mb-3'>
+          <p className='mt-3 -mb-4'>
             Muitos usuários clicavam no botão "+ Novo Modelo de Escala" quando,
             na verdade, queriam publicar uma escala. Essa confusão indicava uma
             falha na hierarquia visual e na localização do botão para realizar a
@@ -125,7 +125,7 @@ export const Continuos = () => {
             na aba de escalas publicadas, tornando o fluxo mais intuitivo. Após
             essa implementação, observamos que o problema não voltou a ocorrer.
           </p>
-          <p className='mt-6 -mb-3'>
+          <p className='mt-6 -mb-4'>
             Ainda assim, mantivemos o botão de publicação junto ao modelo, pois
             identificamos que os usuários já habituados poderiam preferir o
             fluxo que já era conhecido. Dessa forma, equilibramos a experiência
