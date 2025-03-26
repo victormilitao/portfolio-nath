@@ -9,6 +9,7 @@ import info7 from '/src/assets/ci-7.png'
 import info8 from '/src/assets/ci-8.png'
 import info9 from '/src/assets/ci-9.png'
 import info10 from '/src/assets/ci-10.png'
+import info11 from '/src/assets/ci-video-img.png'
 import video from '/src/assets/ci-video.mov'
 import { ProjectFooter } from '../components/project-footer'
 import { Line } from '../components/line'
@@ -112,7 +113,7 @@ export const Continuos = () => {
               text='1. Confusão com o botão "+ Novo modelo de escala'
             />
           </div>
-          <p className='mt-3'>
+          <p className='mt-3 -mb-3'>
             Muitos usuários clicavam no botão "+ Novo Modelo de Escala" quando,
             na verdade, queriam publicar uma escala. Essa confusão indicava uma
             falha na hierarquia visual e na localização do botão para realizar a
@@ -124,7 +125,7 @@ export const Continuos = () => {
             na aba de escalas publicadas, tornando o fluxo mais intuitivo. Após
             essa implementação, observamos que o problema não voltou a ocorrer.
           </p>
-          <p className='mt-6'>
+          <p className='mt-6 -mb-3'>
             Ainda assim, mantivemos o botão de publicação junto ao modelo, pois
             identificamos que os usuários já habituados poderiam preferir o
             fluxo que já era conhecido. Dessa forma, equilibramos a experiência
@@ -167,7 +168,7 @@ export const Continuos = () => {
             iniciais e tornando a experiência mais intuitiva, o que reduziu
             significativamente a fricção no primeiro uso.
           </p>
-          <VideoPlayer src={video} width='800px' />
+          <VideoPlayer src={video} width='800px' poster={info11} />
           <p className='mt-10'>
             Uma das ações para medir a efetividade desta iniciativa foi a
             implementação de uma pesquisa CES ao final do fluxo guiado. Quando o
