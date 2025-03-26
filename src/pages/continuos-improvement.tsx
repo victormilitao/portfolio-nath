@@ -15,6 +15,7 @@ import { Title } from '../components/title'
 import { ProjectImage } from '../components/project-image'
 import { BackToTop } from '../components/back-to-top'
 import { LinkTo } from '../components/link-to'
+import { VideoPlayer } from '../components/video-player'
 
 export const Continuos = () => {
   return (
@@ -158,15 +159,15 @@ export const Continuos = () => {
             consequentemente, não avançavam no uso da funcionalidade.
           </p>
           <ProjectImage src={info4} />
-          <p className='mt-3'>
+          <p className='mt-10'>
             Essa descoberta deu origem a uma iniciativa dentro da squad: o
             projeto de onboarding do Escala. Desenvolvemos um fluxo guiado para
             os primeiros passos do usuário, facilitando as configurações
             iniciais e tornando a experiência mais intuitiva, o que reduziu
             significativamente a fricção no primeiro uso.
           </p>
-          Videooooooooooooooo
-          <p className='mt-3'>
+          <VideoPlayer src="src\assets\ci-video.mov" width='800px' />
+          <p className='mt-10'>
             Uma das ações para medir a efetividade desta iniciativa foi a
             implementação de uma pesquisa CES ao final do fluxo guiado. Quando o
             usuário finaliza a última etapa, perguntamos o quão fácil foi
