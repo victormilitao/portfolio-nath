@@ -9,6 +9,7 @@ import info7 from '/src/assets/ci-7.png'
 import info8 from '/src/assets/ci-8.png'
 import info9 from '/src/assets/ci-9.png'
 import info10 from '/src/assets/ci-10.png'
+import video from '/src/assets/ci-video.mov'
 import { ProjectFooter } from '../components/project-footer'
 import { Line } from '../components/line'
 import { Title } from '../components/title'
@@ -166,7 +167,7 @@ export const Continuos = () => {
             iniciais e tornando a experiência mais intuitiva, o que reduziu
             significativamente a fricção no primeiro uso.
           </p>
-          <VideoPlayer src="src\assets\ci-video.mov" width='800px' />
+          <VideoPlayer src={video} width='800px' />
           <p className='mt-10'>
             Uma das ações para medir a efetividade desta iniciativa foi a
             implementação de uma pesquisa CES ao final do fluxo guiado. Quando o
