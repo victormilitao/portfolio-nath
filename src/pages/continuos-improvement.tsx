@@ -88,7 +88,7 @@ export const Continuos = () => {
             experiência ainda mais eficiente.
           </p>
           <Line />
-          <div className='mt-14'>
+          <div className='mt-6'>
             <Title
               type='3'
               text='O que descobri assistindo às gravações de uso?'

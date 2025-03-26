@@ -12,13 +12,11 @@ export const ProjectImage = ({ src, size = 'md' }: ProjectImageProps) => {
   
   const width = ImgSize[size]
 
-  if (!width) return null
-
   return (
     <div className="mt-10 w-full flex justify-center">
       <img
-        className="object-cover"
-        style={{ width, maxWidth: width }}
+        className={`sm:max-w-none object-cover`}
+        style={{ width }}
         src={src}
         alt="Project"
       />
