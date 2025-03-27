@@ -110,7 +110,7 @@ export const Continuos = () => {
           <div className='mt-6'>
             <Title
               type='6'
-              text='1. Confusão com o botão "+ Novo modelo de escala'
+              text='1. Confusão com o botão "+ Novo modelo de escala"'
             />
           </div>
           <p className='mt-3 -mb-4'>
@@ -195,7 +195,7 @@ export const Continuos = () => {
               text='3. A pesquisa demorava para retornar resultados'
             />
           </div>
-          <p className='mt-6'>
+          <p className='mt-6 -mb-3'>
             Percebemos que a barra de pesquisa dentro da criação de um modelo
             estava lenta para exibir os resultados. Isso acontecia porque, ao
             digitar um termo, o sistema buscava a palavra em diversas
@@ -246,7 +246,7 @@ export const Continuos = () => {
             na interface, destacando modelos sem publicação no período vigente.
           </p>
           <ProjectImage src={info7} />
-          <p className='mt-6'>
+          <p className='mt-10'>
             Essas ações já foram implementadas, mas seus impactos ainda estão
             sendo avaliados. Seguimos monitorando os resultados para validar sua
             efetividade e, se necessário, ajustar a abordagem.

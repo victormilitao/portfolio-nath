@@ -7,7 +7,7 @@ type VideoPlayerProps = {
 
 export const VideoPlayer = ({ src, poster, width = '100%', height = 'auto' }: VideoPlayerProps) => {
   return (
-    <div className="mt-10 w-full flex justify-center">
+    <div className="mt-10 w-full flex justify-center cursor-pointer">
       <video className="sm:max-w-none" poster={poster} width={width} height={height} controls>
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
