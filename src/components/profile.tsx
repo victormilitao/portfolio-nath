@@ -14,7 +14,7 @@ export const Profile = () => {
         <div className='profile-info flex flex-col justify-center text-secondary-1'>
           <p className='profile-name font-bold'>Nathália Gonçalves</p>
           <p className='profile-job font-light mb-3'>
-            Product designer no ecossistema VR
+            Product designer na Flash
           </p>
           <div className='hidden sm:flex gap-2'>
             <Button>
@@ -79,7 +79,7 @@ export const ProfileInline = () => {
         <div className='profile-info flex flex-col justify-center text-secondary-1'>
           <p className='profile-name font-bold'>Nathália Gonçalves</p>
           <p className='profile-job font-light'>
-            Product designer no ecossistema VR
+            Product designer na Flash
           </p>
         </div>
       </div>
